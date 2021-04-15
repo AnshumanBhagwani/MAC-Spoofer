@@ -30,7 +30,7 @@ def get_current_mac(interface):
     if mac_addr_result:
         return mac_addr_result.group(0)
     else:
-        print("[-] Could not read MAC address.")
+        print("[-] Could not read MAC address")
 
 
 options = get_arguements()
